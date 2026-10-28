@@ -1,6 +1,6 @@
 # Mnemonica widget
 
-An Android lock screen widget for memorising [Juan Tamariz's Mnemonica stack](https://en.wikipedia.org/wiki/Mnemonica).
+An Android lock screen widget for memorising Juan Tamariz's Mnemonica stack.
 
 Each time you lock your phone, it deals a new position ↔ card pair. One side is blurred for 2.5 seconds, then sharpens over the next 2.5, giving you time to recall the answer. No interaction needed. Double tap the widget for a new pair.
 
@@ -9,7 +9,7 @@ Each time you lock your phone, it deals a new position ↔ card pair. One side i
 ## Install
 
 1. Download the APK from [Releases](../../releases) and install it.
-2. Open Mnemonica once so it can start dealing.
+2. Open the app once.
 3. Add the widget to your lock screen or home screen.
 
 Needs Android 14 or later. Widgets on the phone lock screen need Android 16 QPR2 or later.
