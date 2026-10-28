@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mnemonica</string>
+    <string name="widget_description">A Mnemonica flash card on every unlock</string>
+    <string name="channel_name">Dealing cards</string>
+    <string name="instructions">The widget has been installed and is ready to be added to your homescreen or lockscreen.</string>
+</resources>

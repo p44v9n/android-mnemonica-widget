@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One flipper per blur level, coarsest at the bottom. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:importantForAccessibility="noHideDescendants">
+
+    <ViewFlipper
+        android:id="@+id/flipper0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_0">
+
+        <ImageView
+            android:id="@+id/layer0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_1">
+
+        <ImageView
+            android:id="@+id/layer1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_2">
+
+        <ImageView
+            android:id="@+id/layer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_3">
+
+        <ImageView
+            android:id="@+id/layer3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_4">
+
+        <ImageView
+            android:id="@+id/layer4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_5">
+
+        <ImageView
+            android:id="@+id/layer5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_6">
+
+        <ImageView
+            android:id="@+id/layer6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/flipper7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/reveal_7">
+
+        <ImageView
+            android:id="@+id/layer7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </ViewFlipper>
+</FrameLayout>
